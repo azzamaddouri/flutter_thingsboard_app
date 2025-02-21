@@ -37,6 +37,7 @@ class _DashboardState extends TbContextState<DashboardWidget> {
   final dashboardLoading = ValueNotifier<bool>(true);
 
   late final DashboardController dashboardController;
+  @override
   late final TbLogger log;
   late WebUri _initialUrl;
 
